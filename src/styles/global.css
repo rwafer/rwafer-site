@@ -1,0 +1,34 @@
+@import "./typography.css";
+
+body {
+  font-family: "Roboto", "Source Code", georgia, serif;
+}
+
+html {
+    background-color: rgb(23, 24, 23);
+
+}
+
+div {
+    color: white;
+    font-size: xx-large;
+}
+
+a:link {
+    color: white;
+}
+  
+/* visited link */
+a:visited {
+    color: white;
+}
+  
+  /* mouse over link */
+  a:hover {
+    color: green;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
